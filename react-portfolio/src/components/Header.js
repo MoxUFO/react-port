@@ -75,7 +75,9 @@ function ResponsiveHeader({ handlePageChange }) {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={() => handlePageChange(page)}>
+                <MenuItem key={page} onClick={() => { 
+                  handleCloseNavMenu()
+                  return handlePageChange(page)}}>
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -102,7 +104,9 @@ function ResponsiveHeader({ handlePageChange }) {
             {pages.map((page) => (
               <Button
                 key={page}
-                onClick={() => handlePageChange(page)}
+                onClick={() =>{
+                  handleCloseNavMenu()
+                  return handlePageChange(page)}}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
