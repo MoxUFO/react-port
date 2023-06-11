@@ -5,9 +5,10 @@ import Box from '@mui/material/Box';
 import '../styles/Header.css'
 // import NavTabs from "./NavTabs";
 
-function Header() {
+function Header({ handlePageChange }) {
+  
     return (
-      <header class='my-header'>
+      <header className='my-header'>
         <h2>Nelson Foster Jr.</h2>
         <Box
       sx={{
@@ -20,9 +21,10 @@ function Header() {
       }}
     >
       <ButtonGroup variant="text" aria-label="text button group">
-        <Button>About</Button>
-        <Button>Edu</Button>
-        <Button>Project</Button>
+        <Button onClick={() => handlePageChange('Home')}>Home</Button>
+        <Button onClick={() => handlePageChange('About')}>About Me</Button>
+        <Button onClick={() => handlePageChange('Projects')}>Projects</Button>
+        <Button onClick={() => handlePageChange('Education')}>Education</Button>
       </ButtonGroup>
     </Box>
       </header>

@@ -1,3 +1,5 @@
-#my-header {
-    background-color: green;
+.my-header {
+    background-color: rgb(129, 181, 149);
+    display: flex;
+    justify-content: space-around;
   }
