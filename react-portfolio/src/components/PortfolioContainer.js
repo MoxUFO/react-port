@@ -6,6 +6,7 @@ import About from './pages/AboutMe';
 import Projects from './pages/Projects';
 import Education from './pages/Education'
 // import ContactForm from './pages/ContactForm';
+ import '../styles/PorfolioContainer.css'
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -18,7 +19,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Home') {
       return <Home />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === 'About Me') {
       return <About />;
     }
     if (currentPage === 'Projects') {
@@ -33,8 +34,7 @@ export default function PortfolioContainer() {
 
 
   return (
-    <div>
-      
+    <div className='body-div'>
       < Header currentPage={currentPage} handlePageChange={handlePageChange}  />
       {renderPage()}
       < Footer />

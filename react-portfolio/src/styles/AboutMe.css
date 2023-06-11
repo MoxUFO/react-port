@@ -1,0 +1,12 @@
+.about-me{
+    height: 100%;
+    background-color: aqua;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.pic{
+    height: 300px; 
+    width: 300px;
+    background-color: black;
+}

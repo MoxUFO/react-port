@@ -1,9 +1,11 @@
 import React from "react";
+import '../../styles/AboutMe.css'
 
 export default function About() {
   return (
-    <div>
+    <div className="about-me">
       <h1>About Me</h1>
+      <div className="pic"></div>
       <p>
         Allow me to introduce myself, I'm Nelson Foster Jr. Originally, I
         started my professional journey as a union carpenter, where I honed my
