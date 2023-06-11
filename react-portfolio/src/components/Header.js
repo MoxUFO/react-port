@@ -1,12 +1,12 @@
 import React from "react";
+// import NavTabs from "./NavTabs";
 
 function Header() {
     return (
-        <div >
-        <header className="App-header">
-          <h1>Nelson Foster</h1>
-        </header>
-      </div>
+      <header>
+
+      </header>
+      
     )
 }
 
