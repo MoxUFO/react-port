@@ -3,7 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './pages/Home';
 import About from './pages/AboutMe';
-import Projects from './pages/Projects';
+import ProjectsContainer from './pages/ProjectsContainer';
 import Education from './pages/Education'
 // import ContactForm from './pages/ContactForm';
  import '../styles/PorfolioContainer.css'
@@ -23,7 +23,7 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Projects') {
-      return <Projects />;
+      return <ProjectsContainer />;
     }
     if (currentPage === 'Education') {
           return <Education />;

@@ -1,0 +1,12 @@
+.project-container{
+    height: 100%;
+    background-color: rgb(213, 93, 93);
+    display: flex;
+    flex-direction: column;
+}
+
+.my-projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
