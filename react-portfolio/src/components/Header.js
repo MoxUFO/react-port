@@ -9,6 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import '../styles/Header.css'
 
 
 const pages = ['Home', 'About Me', 'Projects', 'Education'];
@@ -25,20 +26,24 @@ function ResponsiveHeader({ handlePageChange }) {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
-        <Toolbar disableGutters>
+    <AppBar style={{
+      height:' 8%',
+    backgroundColor: 'rgb(101, 101, 66)',
+  
+    }} position="static">
+      <Container   maxWidth="xl">
+        <Toolbar  disableGutters>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap
-            component="a"
+            component="h5"
             href="/"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              color: 'inherit',
+              color: 'rgb(229, 230, 228)',
               textDecoration: 'none',
             }}
           >
@@ -77,7 +82,7 @@ function ResponsiveHeader({ handlePageChange }) {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={() => { 
                   handleCloseNavMenu()
-                  return handlePageChange(page)}}>
+                  return handlePageChange(page)}} >
                   <Typography textAlign="center">{page}</Typography>
                 </MenuItem>
               ))}
@@ -94,7 +99,7 @@ function ResponsiveHeader({ handlePageChange }) {
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
-              color: 'inherit',
+              color: 'rgb(229, 230, 228)',
               textDecoration: 'none',
             }}
           >

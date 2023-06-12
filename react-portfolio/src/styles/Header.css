@@ -1,6 +1,7 @@
-.my-header {
-    height: 10%;
-    background-color: rgb(129, 181, 149);
+.header {
+    height: 8%;
+    background-color: rgb(2, 54, 24);
     display: flex;
     justify-content: space-around;
+
   }
