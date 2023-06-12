@@ -29,7 +29,7 @@ export default function Education() {
 
   return (
     <div className='education'>
-      <Accordion className='edu-content' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"

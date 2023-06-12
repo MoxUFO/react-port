@@ -1,6 +1,17 @@
-.my-footer{
-    background-color:rgb(129, 181, 149); ;
+.foot-container{
+    background-color:rgb(129, 181, 149);
     height: 10%;
     display: flex;
+    align-items: center;
+    justify-content: center;flex-direction: column;
+}
+
+.my-footer{
+    display: flex;
     justify-content: center;
+
+}
+.footer-icon{
+padding-inline: 10px;
+padding-bottom: 25px;
 }
