@@ -2,11 +2,13 @@
     height: 100%;
     background-color: rgb(34, 65, 92);
     display: flex;
+    justify-content: center;
     flex-direction: column;
+    /* padding-inline: 10%; */
 }
 
-.my-projects{
+/* .my-projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+} */
