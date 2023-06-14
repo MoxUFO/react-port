@@ -1,6 +1,7 @@
 .body-div{
+    background-color: rgb(34, 65, 92);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }

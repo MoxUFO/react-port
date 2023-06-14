@@ -27,7 +27,7 @@ function ResponsiveHeader({ handlePageChange }) {
 
   return (
     <AppBar style={{
-      height:' 8%',
+      height:' 10%',
     backgroundColor: 'rgb(101, 101, 66)',
   
     }} position="static">

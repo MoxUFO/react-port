@@ -29,6 +29,7 @@ export default function Education() {
 
   return (
     <div className='education'>
+      <h1>Education</h1>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

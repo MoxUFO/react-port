@@ -2,13 +2,31 @@
     height: 100%;
     background-color: rgb(34, 65, 92);
     display: flex;
-    justify-content: center;
     flex-direction: column;
     /* padding-inline: 10%; */
 }
 
-/* .my-projects{
+.my-projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} */
+}
+.proj-card{
+    max-width: 345;
+    min-width: 345;
+    margin: 3 
+}
+
+@media screen and (max-width: 992px) {
+    
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    
+  }

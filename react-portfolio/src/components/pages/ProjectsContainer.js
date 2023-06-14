@@ -50,7 +50,7 @@ export default function ProjectsContainer() {
   ]
 
   return (
-    <div className='project-container'>
+    <div sx={{ flexGrow: 1 }} className='project-container'>
       <h1>Projects</h1>
       < Projects projects={projectArr} />
     </div>
