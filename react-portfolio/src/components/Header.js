@@ -43,7 +43,7 @@ function ResponsiveHeader({ handlePageChange }) {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              color: 'rgb(229, 230, 228)',
+              color: '#E5E6E4',
               textDecoration: 'none',
             }}
           >
@@ -57,7 +57,7 @@ function ResponsiveHeader({ handlePageChange }) {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit"
+              color="#E5E6E4"
             >
               <MenuIcon />
             </IconButton>
@@ -99,7 +99,7 @@ function ResponsiveHeader({ handlePageChange }) {
               flexGrow: 1,
               fontFamily: 'monospace',
               fontWeight: 700,
-              color: 'rgb(229, 230, 228)',
+              color: '#E5E6E4',
               textDecoration: 'none',
             }}
           >
@@ -112,7 +112,7 @@ function ResponsiveHeader({ handlePageChange }) {
                 onClick={() =>{
                   handleCloseNavMenu()
                   return handlePageChange(page)}}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: '#E5E6E4', display: 'block' }}
               >
                 {page}
               </Button>

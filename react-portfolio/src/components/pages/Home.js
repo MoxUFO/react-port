@@ -1,16 +1,20 @@
 import React from 'react';
 import '../../styles/Home.css'
+import Pic from '../images/taelyn-and-I-250.jpg'
 
 export default function Home() {
   return (
     <div className='home-container'>
-      <h1>Home Page</h1>
-      <div className='intro'>
-        <div className='intro-img'></div>
+      <h1 className='home' >Home Page</h1>
+      <div className='intro'>  
+          <img className='the-img' src={Pic} alt=''></img>      
         <p className='intro-body'>
-       Welocome to my portfolio, im excited you stopped b to check it out.
-        Here you will find basic information and me and my journey as a web developer.
-         Feel free to explore or contact me through links in the footer
+        I invite you to explore my portfolio, which highlights my expertise in web development
+         and design. It showcases a diverse range of projects, including responsive web designs
+         , interactive user interfaces, and innovative solutions. I believe my portfolio offers
+        a comprehensive overview of my capabilities. Feel free to browse through and get in 
+        touch with me (Links are below!) if you have any questions or if there's a project you'd like to discuss further.
+        Thank you for your time, and I look forward to sharing my portfolio with you!
         </p>
       </div>
     </div>

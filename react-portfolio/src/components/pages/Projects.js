@@ -35,6 +35,7 @@ export default function Projects({projects}) {
     minWidth: 500,
     width: 400
   },
+  backgroundColor: '#E5E6E4',
   maxWidth: 345,
   minWidth: 345,
   margin: 3,
