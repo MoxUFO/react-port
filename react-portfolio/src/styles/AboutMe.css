@@ -80,6 +80,12 @@
         border-color: #959595;
         box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
      }
+     .about-body{
+        color: #E5E6E4;
+        font-size: 1.50rem;
+        text-align: center;
+        padding-inline: 5%;
+    }
   }  
  
   
