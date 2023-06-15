@@ -10,21 +10,22 @@
     display: flex;
    align-items: center;
     flex-direction: column;
-    width: 100%;
+    
 }
 
 .intro-body{
     color: #E5E6E4;
     font-size: 1.25rem;
+    text-align: center;
 }
 
 
 @media (max-width: 320px) {
     .the-img{
-        width: 70;
-        display: flex;
+        /* width: 70; */
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
         border-radius: 10px;
         border: 5px;
         box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);

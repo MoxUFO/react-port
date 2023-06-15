@@ -1,12 +1,14 @@
 import React from "react";
 import '../../styles/AboutMe.css'
+import Pic from '../images/taelyn-and-I-250.jpg'
 
 export default function About() {
   return (
-    <div className="about-me">
-      <h1>About Me</h1>
-      <div className="pic"></div>
-      <p>
+    <div className="about-containter">
+      <h1 className="about-me">About Me</h1>
+      <div className="about" >
+      <img className='pic' src={Pic} alt=''></img>
+      <p className="about-body">
         Allow me to introduce myself, I'm Nelson Foster Jr. Originally, I
         started my professional journey as a union carpenter, where I honed my
         skills and craftsmanship. However, due to medical reasons, I had to step
@@ -23,6 +25,7 @@ export default function About() {
         ready to embark on new challenges and make a meaningful impact in
         whatever I pursue.
       </p>
+      </div>
     </div>
   );
 }
