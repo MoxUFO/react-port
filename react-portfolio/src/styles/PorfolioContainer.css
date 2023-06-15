@@ -5,3 +5,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.projects{
+    color: #E5E4E6;
+    padding-inline: 10%;
+}

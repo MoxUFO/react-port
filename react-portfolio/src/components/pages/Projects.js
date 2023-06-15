@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import '../../styles/Project.css'
 
 export default function Projects({projects}) {
+  // console.log(projects);
 
 
   return (
@@ -43,22 +44,21 @@ export default function Projects({projects}) {
     }}>
  <CardMedia
    component="img"
-   alt="green iguana"
+   alt="project pohto"
    height="140"
- 
-   image="/static/images/cards/contemplative-reptile.jpg"
+   image={projects.img}
  />
  <CardContent>
-   <Typography gutterBottom variant="h5" component="div">
+   <Typography sx={{color: 'rgb(34, 65, 92)'}}  gutterBottom variant="h5" component="div">
      {project.title}
    </Typography>
-   <Typography variant="body2" color="text.secondary">
+   <Typography sx={{color: 'rgb(34, 65, 92)'}} variant="body2" color="text.secondary">
    {project.description}
    </Typography>
  </CardContent>
  <CardActions>
-   <a href={project.repo}><Button size="small">Live</Button></a>
-   <a href={project.live}><Button size="small">Learn More</Button></a>
+   <a href={project.repo}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Live</Button></a>
+   <a href={project.live}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Learn More</Button></a>
  </CardActions>
  </Card> 
         ))}
