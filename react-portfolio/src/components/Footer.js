@@ -13,9 +13,9 @@ function Footer() {
           <h3>Contact Me</h3>
           </div>
         <footer className='my-footer'>
-          <a className='footer-icon' href='https://github.com/MoxUFO'><GitHubIcon style={{color:'rgb(34, 65, 92)'}} fontSize='large' /></a>
-          <a className='footer-icon' href='https://www.linkedin.com/in/nelson-foster-8281a8279/'> <LinkedInIcon fontSize='large'/></a>
-          <a className='footer-icon' href='https://twitter.com/MOX_UFO_'><TwitterIcon fontSize='large'/></a>   
+          <a className='footer-icon' href='https://github.com/MoxUFO'><GitHubIcon sx={{color: 'rgb(34, 65, 92)'}} fontSize='large' /></a>
+          <a className='footer-icon' href='https://www.linkedin.com/in/nelson-foster-8281a8279/'> <LinkedInIcon sx={{color: 'rgb(34, 65, 92)'}} fontSize='large'/></a>
+          <a className='footer-icon' href='https://twitter.com/MOX_UFO_'><TwitterIcon sx={{color: 'rgb(34, 65, 92)'}} fontSize='large'/></a>   
         </footer>
       </div>
       

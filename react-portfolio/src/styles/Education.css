@@ -1,6 +1,10 @@
 .education {
     background-color: rgb(34, 65, 92);
-    height: 100%;
-    padding-top: 30px;
+
     padding-inline: 10%;
+    padding-bottom: 30px;
+}
+
+.edu {
+    color: #E5E4E6
 }

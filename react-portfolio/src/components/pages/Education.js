@@ -29,53 +29,53 @@ export default function Education() {
 
   return (
     <div className='education'>
-      <h1>Education</h1>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+      <h1 className='edu'>Education</h1>
+      <Accordion sx={{ backgroundColor: '#E5E6E4' }} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1bh-content"
           id="panel1bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
+          <Typography sx={{color: 'rgb(34, 65, 92) ', fontSize:'1.5rem' , width: '33%', flexShrink: 0 }}>
             High School
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{color: 'rgb(34, 65, 92)'}} >
             I Graduated in 2012 From Morrison R. Waite High School, located in Toledo, Ohio.
           </Typography>
         </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      </Accordion >
+      <Accordion sx={{ backgroundColor: '#E5E6E4' }} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2bh-content"
           id="panel2bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>The Ohio State University's edX BootCamp</Typography>
+          <Typography sx={{color: 'rgb(34, 65, 92)' ,fontSize:'1.5rem' , width: '33%', flexShrink: 0 }}>The OSU's FullStack BootCamp</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{color: 'rgb(34, 65, 92)'}} >
             I completed The Ohio State University's edX BootCamp, which provided me with comprohensive training and hands-on experience in front-end and back-end web developement.
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+      <Accordion sx={{ backgroundColor: '#E5E6E4' }} expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel3bh-content"
           id="panel3bh-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            Technology I learned
+          <Typography sx={{color: 'rgb(34, 65, 92)' ,paddingBottom: '10px' , fontSize:'1.5rem' ,width: '33%', flexShrink: 0 }}>
+            Proficiencies:
           </Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
+          <Typography sx={{color: 'rgb(34, 65, 92)'}} >
           <List >
                 <ListItem>
                   <ListItemIcon>
-                    <CarpenterIcon />
+                    <CarpenterIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="HTML"
@@ -83,15 +83,15 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <BrushIcon />
-                  </ListItemIcon>
+                    <BrushIcon sx={{color: 'rgb(34, 65, 92)'}} />
+                  </ListItemIcon >
                   <ListItemText
                     primary="CSS"
                   />
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <BuildIcon />
+                    <BuildIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="JavaScript"
@@ -99,7 +99,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <ConstructionIcon />
+                    <ConstructionIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="SQL"
@@ -107,7 +107,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <HandymanIcon />
+                    <HandymanIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="NoSQL"
@@ -115,7 +115,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <PlumbingIcon />
+                    <PlumbingIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="Node.js"
@@ -123,7 +123,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <HardwareIcon />
+                    <HardwareIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="Material UI"
@@ -131,7 +131,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <HomeRepairServiceIcon />
+                    <HomeRepairServiceIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="P.W.A's"
@@ -139,7 +139,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <SquareFootIcon />
+                    <SquareFootIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="React"
@@ -147,7 +147,7 @@ export default function Education() {
                 </ListItem>
                 <ListItem>
                   <ListItemIcon>
-                    <ArchitectureIcon />
+                    <ArchitectureIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
                     primary="API's"
