@@ -57,8 +57,8 @@ export default function Projects({projects}) {
    </Typography>
  </CardContent>
  <CardActions>
-   <a href={project.repo}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Live Site</Button></a>
-   <a href={project.live}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Repositpry</Button></a>
+   <a href={project.live}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Live Site</Button></a>
+   <a href={project.repo}><Button sx={{color: 'rgb(34, 65, 92)'}} size="small">Repositpry</Button></a>
  </CardActions>
  </Card> 
         ))}

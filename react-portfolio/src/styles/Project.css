@@ -14,7 +14,8 @@
 .proj-card{
     max-width: 345;
     min-width: 345;
-    margin: 3 
+    margin: 3; 
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3) !important;
 }
 
 @media screen and (max-width: 992px) {
