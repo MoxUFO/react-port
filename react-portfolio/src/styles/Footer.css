@@ -5,6 +5,10 @@
     align-items: center;
     justify-content: center;flex-direction: column;
 }
+.contact{
+    color:#E5E4E6;
+    
+}
 
 .my-footer{
     display: flex;
