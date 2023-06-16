@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import '../../styles/Project.css'
 
 export default function Projects({projects}) {
-  console.log(projects.img);
+  // console.log(projects.img);
 
 
   return (
