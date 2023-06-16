@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-port/static/css/main.b2dec33b.css",
+    "main.js": "/react-port/static/js/main.eed72439.js",
+    "static/media/BootCamp-Connect.png": "/react-port/static/media/BootCamp-Connect.d8ae9ca6d3954a3d69bd.png",
+    "static/media/Rave.png": "/react-port/static/media/Rave.e663542d80ebe2704e6d.png",
+    "static/media/wether.png": "/react-port/static/media/wether.d5db69faadd4e3bf8928.png",
+    "static/media/taelyn-and-I-250.jpg": "/react-port/static/media/taelyn-and-I-250.9fbafe4ef1dedd9cd4ab.jpg",
+    "static/media/Raw-Blog.png": "/react-port/static/media/Raw-Blog.5bfca90e0ca30c0223ae.png",
+    "static/media/SVG.png": "/react-port/static/media/SVG.d7ad0e1edbfaa30412ba.png",
+    "index.html": "/react-port/index.html",
+    "main.b2dec33b.css.map": "/react-port/static/css/main.b2dec33b.css.map",
+    "main.eed72439.js.map": "/react-port/static/js/main.eed72439.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2dec33b.css",
+    "static/js/main.eed72439.js"
+  ]
+}
