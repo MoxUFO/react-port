@@ -16,42 +16,42 @@ export default function ProjectsContainer() {
       description: "This is a uniqe app where bootcamp students can can create a profile and view peer profile to learn more about them.",
       live: "https://bootcamp-connect-5.herokuapp.com/",
       repo: "https://github.com/Trengland/Bootcamp-Connect",
-      img: {BcCon}
+      img: BcCon
     },
     {
       title: "Rave Reviews",
       description: "This is a cool app that allows you to search for nearby events",
       live: "https://moxufo.github.io/Rave-Reviews/",
       repo: "https://github.com/MoxUFO/Rave-Reviews",
-      img: {Rave}
+      img: Rave
     },
     {
       title: "Yo what's the wheather like",
       description: "A beautiful app that Shows the current and 5 day forcast for any city in U.S. .",
       live: "https://moxufo.github.io/yo-whats--the-weather-like/",
       repo: "https://github.com/MoxUFO/yo-whats--the-weather-like",
-      img: {Wether}
+      img: Wether
     },
     {
       title: "Raw Blog",
       description: "This is a chill app that allows for blog post creation and commenting!",
       live: "liveUrl",
       repo: "https://github.com/MoxUFO/Raw_Blog",
-      img: {Raw}
+      img: Raw
     },
     {
       title: "Coming soon!",
       description: " ",
       live: "TBD",
       repo: "TBD",
-      img: {SVG}
+      img: SVG
     },
     {
       title: "Coming Soon!",
       description: " ",
       live: "TBD",
       repo: "TBD",
-      img: {SVG}
+      img: SVG
     }
   ]
 

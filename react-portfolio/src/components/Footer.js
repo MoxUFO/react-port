@@ -29,6 +29,8 @@ function Footer() {
   };
 
   const handleClose = () => {
+   let test = document.querySelectorAll('#standard-textarea')
+   console.log(test);
     setOpen(false);
   };
 

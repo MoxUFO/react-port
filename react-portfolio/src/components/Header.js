@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import '../styles/Header.css'
+// import zIndex from '@mui/material/styles/zIndex';
 
 
 const pages = ['Home', 'About Me', 'Projects', 'Education'];
@@ -26,9 +27,10 @@ function ResponsiveHeader({ handlePageChange }) {
   };
 
   return (
-    <AppBar style={{
+    <AppBar sx={{
       height:' 10%',
     backgroundColor: 'rgb(101, 101, 66)',
+    zIndex: '10', 
   
     }} position="static">
       <Container   maxWidth="xl">

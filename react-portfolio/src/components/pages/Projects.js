@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import '../../styles/Project.css'
 
 export default function Projects({projects}) {
-  // console.log(projects);
+  // console.log(projects.img);
 
 
   return (
@@ -46,7 +46,8 @@ export default function Projects({projects}) {
    component="img"
    alt="project pohto"
    height="140"
-   image={projects.img}
+   src= {project.img}
+   image={project.img}
  />
  <CardContent>
    <Typography sx={{color: 'rgb(34, 65, 92)'}}  gutterBottom variant="h5" component="div">
