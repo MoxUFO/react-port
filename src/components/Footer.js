@@ -30,7 +30,11 @@ function Footer() {
 
   const handleClose = () => {
    let test = document.querySelectorAll('#standard-textarea')
-   console.log(test);
+   for (let i = 0; i < test.length; i++) {
+    console.log(test[i].value);
+    test[i].value = ""
+   }
+  //  console.log(test);
     setOpen(false);
   };
 

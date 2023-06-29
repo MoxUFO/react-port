@@ -14,7 +14,8 @@ export default function About() {
         skills and craftsmanship. However, due to medical reasons, I had to step
         away from carpentry and seek a new path that would challenge my mind. I
         was eager to find a profession that would engage my intellect and allow
-        me to grow. Outside of work, I have a deep love for the outdoors and
+        me to grow. That when I Found The Ohio State University full-stack bootcamp
+        where i learn skils such as HTML,CSS, JavaScript, MySQL to name a few. Outside of work, I have a deep love for the outdoors and
         often find solace in camping trips, connecting with nature's beauty.
         Additionally, I'm an avid gamer and enjoy immersing myself in the world
         of video games and Dungeons and Dragons. For the past seven years, I've
