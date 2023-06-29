@@ -13,7 +13,7 @@ import '../styles/Header.css'
 // import zIndex from '@mui/material/styles/zIndex';
 
 
-const pages = ['Home', 'About Me', 'Projects', 'Education'];
+const pages = ['Home', 'About Me', 'Projects', 'Education','Resume'];
 
 function ResponsiveHeader({ handlePageChange }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
