@@ -30,22 +30,6 @@ export default function Education() {
   return (
     <div className='education'>
       <h1 className='edu'>Education</h1>
-      <Accordion sx={{ backgroundColor: '#E5E6E4' }} expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
-        >
-          <Typography sx={{color: 'rgb(34, 65, 92) ', fontSize:'1.5rem' , width: '33%', flexShrink: 0 }}>
-            High School
-          </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography sx={{color: 'rgb(34, 65, 92)'}} >
-            I Graduated in 2012 From Morrison R. Waite High School, located in Toledo, Ohio.
-          </Typography>
-        </AccordionDetails>
-      </Accordion >
       <Accordion sx={{ backgroundColor: '#E5E6E4' }} expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
@@ -102,7 +86,7 @@ export default function Education() {
                     <ConstructionIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
-                    primary="SQL"
+                    primary="SQL/NoSQL"
                   />
                 </ListItem>
                 <ListItem>
@@ -110,7 +94,7 @@ export default function Education() {
                     <HandymanIcon sx={{color: 'rgb(34, 65, 92)'}}/>
                   </ListItemIcon>
                   <ListItemText
-                    primary="NoSQL"
+                    primary="OOP"
                   />
                 </ListItem>
                 <ListItem>

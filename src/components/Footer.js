@@ -9,20 +9,20 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 // import DialogContent from '@mui/material/DialogContent';
 // import DialogContentText from '@mui/material/DialogContentText';
 // import DialogTitle from '@mui/material/DialogTitle';
-import Slide from '@mui/material/Slide';
+// import Slide from '@mui/material/Slide';
 // import AddIcCallIcon from '@mui/icons-material/AddIcCall';
 // import TextField from '@mui/material/TextField';
 
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="up" ref={ref} {...props} />;
-});
+// const Transition = React.forwardRef(function Transition(props, ref) {
+//   return <Slide direction="up" ref={ref} {...props} />;
+// });
 
 
 
 
 function Footer() {
 
-  const [open, setOpen] = React.useState(false);
+  // const [open, setOpen] = React.useState(false);
 
   // const handleClickOpen = () => {
   //   setOpen(true);
