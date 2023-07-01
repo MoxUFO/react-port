@@ -3,15 +3,15 @@ import '../styles/Footer.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
-import Button from '@mui/material/Button';
-import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
+// import Button from '@mui/material/Button';
+// import Dialog from '@mui/material/Dialog';
+// import DialogActions from '@mui/material/DialogActions';
+// import DialogContent from '@mui/material/DialogContent';
+// import DialogContentText from '@mui/material/DialogContentText';
+// import DialogTitle from '@mui/material/DialogTitle';
 import Slide from '@mui/material/Slide';
-import AddIcCallIcon from '@mui/icons-material/AddIcCall';
-import TextField from '@mui/material/TextField';
+// import AddIcCallIcon from '@mui/icons-material/AddIcCall';
+// import TextField from '@mui/material/TextField';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -24,19 +24,19 @@ function Footer() {
 
   const [open, setOpen] = React.useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  // const handleClickOpen = () => {
+  //   setOpen(true);
+  // };
 
-  const handleClose = () => {
-   let test = document.querySelectorAll('#standard-textarea')
-   for (let i = 0; i < test.length; i++) {
-    console.log(test[i].value);
-    test[i].value = ""
-   }
-  //  console.log(test);
-    setOpen(false);
-  };
+  // const handleClose = () => {
+  //  let test = document.querySelectorAll('#standard-textarea')
+  //  for (let i = 0; i < test.length; i++) {
+  //   console.log(test[i].value);
+  //   test[i].value = ""
+  //  }
+  // //  console.log(test);
+  //   setOpen(false);
+  // };
 
   
     return (
@@ -49,7 +49,7 @@ function Footer() {
           <a className='footer-icon' href='https://www.linkedin.com/in/nelson-foster-8281a8279/'> <LinkedInIcon sx={{color: 'rgb(34, 65, 92)'}} fontSize='large'/></a>
           <a className='footer-icon' href='https://twitter.com/MOX_UFO_'><TwitterIcon sx={{color: 'rgb(34, 65, 92)'}} fontSize='large'/></a>
 
-        < AddIcCallIcon fontSize='large' onClick={handleClickOpen} sx={{color: 'rgb(34, 65, 92)'}}/>
+        {/* < AddIcCallIcon fontSize='large' onClick={handleClickOpen} sx={{color: 'rgb(34, 65, 92)'}}/>
 
       <Dialog
         open={open}
@@ -92,7 +92,7 @@ function Footer() {
          
           <Button sx={{color: 'rgb(34, 65, 92)'}} onClick={handleClose}>Submit</Button>
         </DialogActions>
-      </Dialog>
+      </Dialog> */}
         </footer>
       </div>
       

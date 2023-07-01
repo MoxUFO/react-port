@@ -8,6 +8,29 @@ import Typography from '@mui/material/Typography';
 import '../../styles/Project.css'
 
 export default function Projects({projects}) {
+
+  const customStyles = {
+    '@media (max-width: 320px)' : {
+      minWidth: 300,
+      width:300
+    },
+    '@media (min-width: 321px) and (max-width: 600px)' : {
+      minWidth: 300,
+      width:345
+    },
+    '@media (min-width: 601px) and (max-width: 960px)' : {
+      minWidth: 400,
+      width: 400
+    },
+    '@media (min-width: 961px) and (max-width: 1280px)': {
+      minWidth: 400,
+      width: 400
+    },
+    '@media (min-width: 1281px)': {
+      minWidth: 500,
+      width: 400
+    },
+  }
   // console.log(projects.img);
 
 
@@ -50,11 +73,14 @@ export default function Projects({projects}) {
    image={project.img}
  />
  <CardContent>
-   <Typography sx={{color: 'rgb(34, 65, 92)'}}  gutterBottom variant="h5" component="div">
+   <Typography sx={{ color: 'rgb(34, 65, 92)'}}  gutterBottom variant="h5" component="div">
      {project.title}
    </Typography>
    <Typography sx={{color: 'rgb(34, 65, 92)'}} variant="body2" color="text.secondary">
    {project.description}
+   </Typography>
+   <Typography sx={{ color: 'rgb(34, 65, 92)'}} variant="body2" color="text.secondary">
+    <strong>Tech Used:</strong> {project.tools}
    </Typography>
  </CardContent>
  <CardActions>
