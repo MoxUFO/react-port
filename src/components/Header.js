@@ -9,11 +9,12 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import CottageIcon from '@mui/icons-material/Cottage';
 import '../styles/Header.css'
 // import zIndex from '@mui/material/styles/zIndex';
 
 
-const pages = ['Home', 'About Me', 'Projects', 'Education','Resume'];
+const pages = ['Home','Projects', 'About Me' ,'Resume'];
 
 function ResponsiveHeader({ handlePageChange }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -32,13 +33,13 @@ function ResponsiveHeader({ handlePageChange }) {
     backgroundColor: 'rgb(101, 101, 66)',
     zIndex: '10', 
   
-    }} position="static">
+    }} position="fixed">
       <Container   maxWidth="xl">
         <Toolbar  disableGutters>
           <Typography
-            variant="h5"
+            variant="h4"
             noWrap
-            component="h5"
+            component="h4"
             href="/"
             sx={{
               mr: 2,

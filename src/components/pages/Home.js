@@ -6,8 +6,7 @@ export default function Home() {
   return (
     <div className='home-container'>
       <h1 className='home' >Home Page</h1>
-      <div className='intro'>  
-          <img className='the-img' src={Pic} alt=''></img>      
+      <div className='intro'>      
         <p className='intro-body'>
         I invite you to explore my portfolio, which highlights my expertise in web development
          and design. It showcases a diverse range of projects, including responsive web designs

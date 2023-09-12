@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
 
   const handlePageChange = (page) =>{
     if (page === "Resume") {
-      window.open('https://drive.google.com/file/d/1VXkVYiopCHsOTIYVv0Mw0YiPU-NPvq3S/view')
+      window.open('https://1drv.ms/w/s!Au2dQuq0cjMFgT1KhUIOMv0dnX0H?e=AR74Ap')
     } else {
       setCurrentPage(page)
     }
